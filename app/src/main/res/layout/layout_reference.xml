@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Reference">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/references" />
+
+    <TextView
+        android:id="@+id/textVie13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="   REFERENCES :"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="        Mrs. M.S.N.Perera ,Civil Instructor,
+        Lalith Athulathmudali Vocational Training
+        Centre,
+        Station road,
+        Rathmalana.
+        Phone: +94 7150633760"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="        Mr. R.S.K.Thrimavithana,
+        Roseku Engineering Consultants Pvt. Ltd,
+        92/3, Beddagana Road,
+        North Kotte,
+        Sri Lanka.
+        Phone: +94 76 4152707"
+        android:textSize="17sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

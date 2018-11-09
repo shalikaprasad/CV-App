@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/male"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="55dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : M.S.Prasad"
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: No.309, Handhapangoda road Porruwedanda."
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : 23 Years"
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender : Male"
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tel : +94 771 22596"
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Site : prasadcv.site11.com"
+        android:textSize="18sp"
+        android:paddingLeft="25dp"/>
+
+
+
+</LinearLayout>

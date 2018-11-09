@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Extaactivity">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/exp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="EXPERIENCE :"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="ROSEKU ENGINEERING CONSULTANTS PVT.LTD,
+Quantity Survaying | Draghtsperson Trainer
+   • Performed general oﬃce duties and administrative
+     tasks.
+   • Prepare Tender Documents .
+   • Cost Estimating(Swimming pool at Nawinna for
+     Western Provincial Council)
+   • Preparing Council Drawings For Houses"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/textVie10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="TECHNICAL PROFICIENCIES :"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:text="Java Script, HTML, HTML5, CSS, CSS3,
+Web Programming Skills, Team work ,
+Web User Interface Design (UI), Java , C# ,
+3D Maya ,Blender3D"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
